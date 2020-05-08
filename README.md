@@ -1,1 +1,1 @@
-# typescript-vs-javascript
+# typescript 🆚 ⚔ javascript
