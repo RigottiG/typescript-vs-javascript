@@ -21,6 +21,14 @@ O que aconteceu é que o JavaScript talvez não foi criado pensado para isso, al
 
 Em resumo conforme a aplicação cresce a manutenção fica onerosa apenas com JavaScript.
 
+### Quais as dificuldades do JavaScript
+
+- Não saber se houve confusão nos dados.
+- Não descrever o formato de um elemento fazendo com que quem usar possa cometer erros.
+- Auxiliar fracamente no preenchimento (VS Code + Typescript)
+- Não ser declarativo quanto a valores opcionais.
+- Não ter Enum que deixa o código mais amarrado e da uma noção melhor das possíveis opções de preenchimento.
+
 ## Quem está usando?
 
 Exagerando um pouco, "todo mundo". Toda biblioteca maior que importamos é em typescript ou ao menos uso o typescript para gerar o arquivo de definição de tipos que será abaixo. Alguns casos:
@@ -32,6 +40,10 @@ Desde a versão 2 eles perceberam a necessidade da tipagem.
 ### React
 
  Mesmo não sendo obrigatório igual o Angular, o React exporta os tipos junto com suas bibliotecas.
+
+### Material UI
+
+Nos componentes do Material UI se usamos o auxilio de preenchimento já mostra os possíveis atributos, após escrever o atributo="" se pressionar o auxilio dentro do "" irá mostrar todas as opções (Enum).
 
 ## E não tem nada que substitua o TypeScript?
 
