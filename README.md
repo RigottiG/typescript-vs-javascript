@@ -23,4 +23,12 @@ Em resumo conforme a aplicação cresce a manutenção fica onerosa apenas com J
 
 ## Quem está usando?
 
-Exagerando um pouco, "todo mundo". Toda biblioteca maior que importamos é em typescript ou ao menos uso o typescript para gerar o arquivo de definição de tipos que será abaixo.
+Exagerando um pouco, "todo mundo". Toda biblioteca maior que importamos é em typescript ou ao menos uso o typescript para gerar o arquivo de definição de tipos que será abaixo. Alguns casos:
+
+### Angular
+
+Desde a versão 2 eles perceberam a necessidade da tipagem.
+
+### React
+
+O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow Typed](https://github.com/flow-typed/flow-typed) que talvez por falta de conhecimento eu tinha que rodar um comando para verificar os tipos e achei isso trabalhoso, pode se mesmo falta de conhecimento da minha parte. O Facebook fez também o Prop Types, para tipar os compoenentes React, algo bem específico, mas funciona bem, problema que limita a tipagem a componentes e o reaproveitamento fica devendo. Mesmo não sendo obrigatório igual o Angular, o React exporta os tipos junto com suas bibliotecas.
