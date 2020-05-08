@@ -49,7 +49,7 @@ Sou bem suspeito em falar desse cara, foi a primeira experiência boa que tive c
 
 ## Comparando injustamente as tecnologias
 
-Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto.
+Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro motivo da injustiça é por ter avaliado usando VS Code que "apoia" o TypeScript.
 
 |             | Tipagem do JS  | Tipagem do JSX | Validação na tipagem | Tipagem de módulo¹ |
 |---          |---             |---             |---                   |---                 |
