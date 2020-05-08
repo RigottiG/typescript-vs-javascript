@@ -31,4 +31,30 @@ Desde a versão 2 eles perceberam a necessidade da tipagem.
 
 ### React
 
-O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow Typed](https://github.com/flow-typed/flow-typed) que talvez por falta de conhecimento eu tinha que rodar um comando para verificar os tipos e achei isso trabalhoso, pode se mesmo falta de conhecimento da minha parte. O Facebook fez também o Prop Types, para tipar os compoenentes React, algo bem específico, mas funciona bem, problema que limita a tipagem a componentes e o reaproveitamento fica devendo. Mesmo não sendo obrigatório igual o Angular, o React exporta os tipos junto com suas bibliotecas.
+ Mesmo não sendo obrigatório igual o Angular, o React exporta os tipos junto com suas bibliotecas.
+
+## E não tem nada que substitua o TypeScript?
+
+### Flow Typed
+
+O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow Typed](https://github.com/flow-typed/flow-typed) que talvez por falta de conhecimento eu tinha que rodar um comando para verificar os tipos e achei isso trabalhoso, pode se mesmo falta de conhecimento da minha parte. 
+
+### Prop Types
+
+O Facebook fez também o Prop Types, para tipar os compoenentes React, algo bem específico, mas funciona bem, problema que limita a tipagem a componentes e o reaproveitamento fica devendo.
+
+### [JSDoc](https://jsdoc.app/)
+
+Sou bem suspeito em falar desse cara, foi a primeira experiência boa que tive com tipagem, você inclui muita informação em um método que futuramente pode ser usado para gerar uma documentação. A tipagem funciona bem fácil se o editor de texto tiver suporte, problema é que ele ocupa muito espaço no código e não faz validação alguma, só auxilia mesmo.
+
+## Comparando injustamente as tecnologias
+
+Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto.
+
+|             | Tipagem do JS  | Tipagem do JSX |
+|---          |---             |---             |
+| TypeScript  | X              | X              |
+| JSDoc       | X              |                |
+| Flow Typed  | X              |                |
+| Prop Types  |                | X              |
+
