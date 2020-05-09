@@ -71,7 +71,7 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 |---          |---             |---             |---                   |---                 |
 | TypeScript  | X              | X              | X                    | X                  |
 | JSDoc       | X              |                |                      |                    |
-| Flow Typed  | X              |                | X                    |                    |
+| Flow Typed  | X              | X              | X                    |                    |
 | Prop Types  |                | X              | X                    |                    |
 
 ¹ A tipagem de módulo é quando importar algo do node_modules saber exatamente o que, como chamar e o retorno.
