@@ -51,9 +51,9 @@ Nos componentes do Material UI se usamos o auxilio de preenchimento já mostra o
 
 ## E não tem nada que substitua o TypeScript?
 
-### Flow Typed
+### Flow
 
-O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow Typed](https://github.com/flow-typed/flow-typed) que talvez por falta de conhecimento eu tinha que rodar um comando para verificar os tipos e achei isso trabalhoso, pode se mesmo falta de conhecimento da minha parte. 
+O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow](https://github.com/flow-typed/flow-typed) que talvez por falta de conhecimento eu tinha que rodar um comando para verificar os tipos e achei isso trabalhoso, pode se mesmo falta de conhecimento da minha parte. 
 
 ### Prop Types
 
@@ -71,7 +71,36 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 |---          |---             |---             |---                   |---                 |
 | TypeScript  | X              | X              | X                    | X                  |
 | JSDoc       | X              |                |                      |                    |
-| Flow Typed  | X              | X              | X                    |                    |
+| Flow        | X              | X              | X                    |                    |
 | Prop Types  |                | X              | X                    |                    |
 
 ¹ A tipagem de módulo é quando importar algo do node_modules saber exatamente o que, como chamar e o retorno.
+
+# TypeScript ⚔ Flow
+
+## TypeScript
+
+### Prós
+
+- Comunidade maior: Por ser mais antigo que o Flow, sua comunidade é maior e possui mais definições.
+- Suporte do VS code é aparentemente melhor que o do Flow (Microsoft 👬).
+
+### Contras
+
+- Mais verboso
+
+## Flow
+
+Com `//@flow` você pode ir aplicando o Flow apenas nos arquivos que desejar e ir fazendo a tipagem gradualmente.
+
+### Prós
+
+- Fácil integração e refatoração automática
+
+### Contras
+
+- “Move fast and breaks things” — É comum que de uma versão pra outra tenha grandes mudanças (pode ter mudado).
+- Funcionalidades não documentadas (pode ter mudado).
+- Nem sempre as mensagens de erro são claras — Dentro do erro exibido na IDE, o Flow adiciona placeholders como [1] [2], isso é meio confuso as vezes (pode ter mudado)
+- Para algumas libs, é necessário o uso de Flow-Typed
+
