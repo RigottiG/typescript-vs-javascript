@@ -1,5 +1,9 @@
 # TypeScript ⚔ JavaScript
 
+Assim como o JQuery, toda tecnologia tem seu tempo e seu espaço, ou seja, não são eternas nem são balas de prata.
+
+> Com a tipagem estática, temos o benefício de pegar erros em tempo de compilação ao invés de runtime, melhorando a leitura e auxiliando na refatoração do código, além de trazer sugestões mais precisas na IDE. [TypeScript vs Flow no segundo semestre de 2018](https://medium.com/rung-brasil/typescript-vs-flow-no-segundo-semestre-de-2018-54af2d4325d1)
+
 ## Nome 😋
 
 | TypeScript  |  JavaScript |
