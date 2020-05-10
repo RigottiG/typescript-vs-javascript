@@ -80,46 +80,13 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 
 | | TypeScript | Flow |
 |---|---|---|
-| Editor and IDE support	| Widespread	| Little to no support |
-| Questions posted on Stack Overflow	| 100000+	| 600+ |
-|Framework support	| Many, including Express, Vue, React, Angular, etc.	| React only |
-| Library support	| Many |	Few to none (that we know of) |
-| Autocomplete	| Available in IDEs and text editors |	None |
-| Compiler error detection	| Available in IDEs and text editors |	None |
+| Suporte em editores e IDEs	| Vs Code e WebStorm	| Quase nada |
+| Questões no Stack Overflow	| 100000+	| 600+ |
+| Suporte a framework	| vários, including Express, Vue, React, Angular, etc.	| Somente React |
+| Documentação	| Ampla |	Muito fraca |
+| Autocomplete	| Disponível  |	Não há |
+| Compiler error detection	| Available in IDEs and text editors |	Não há |
 | Syntax	| Comprehensive type checking, includes both static and dynamic type annotations	| Comprehensive type checking, includes both static and dynamic type annotations |
 | Generics |	Supported	| Supported |
 | Support in existing projects |	TypeScript package can be added to support TypeScript	| Add support with Babel |
-
-## TypeScript
-
-### Prós
-
-- Comunidade maior: Por ser mais antigo que o Flow, sua comunidade é maior e possui mais definições.
-- Suporte do VS code e do WebStorm é aparentemente melhor que o do Flow (Microsoft 👬).
-
-### Contras
-
-- Mais verboso
-
-## Flow
-
-Com `//@flow` você pode ir aplicando o Flow apenas nos arquivos que desejar e ir fazendo a tipagem gradualmente.
-
-**.babelrc**
-```json
-{
-  "presets": ["@babel/preset-flow"]
-}
-```
-
-### Prós
-
-- Fácil integração e refatoração automática
-
-### Contras
-
-- “Move fast and breaks things” — É comum que de uma versão pra outra tenha grandes mudanças (pode ter mudado).
-- Funcionalidades não documentadas (pode ter mudado).
-- Nem sempre as mensagens de erro são claras — Dentro do erro exibido na IDE, o Flow adiciona placeholders como [1] [2], isso é meio confuso as vezes (pode ter mudado)
-- Para algumas libs, é necessário o uso de Flow-Typed
 
