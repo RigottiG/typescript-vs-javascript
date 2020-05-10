@@ -78,12 +78,25 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 
 # TypeScript ⚔ Flow
 
+| | TypeScript | Flow |
+|---|---|---|
+| Editor and IDE support	| Widespread	| Little to no support |
+| Questions posted on Stack Overflow	| 100000+	| 600+ |
+|Framework support	| Many, including Express, Vue, React, Angular, etc.	| React only |
+| Library support	| Many |	Few to none (that we know of) |
+
+Autocomplete	Available in IDEs and text editors	None
+Compiler error detection	Available in IDEs and text editors	None
+Syntax	Comprehensive type checking, includes both static and dynamic type annotations	Comprehensive type checking, includes both static and dynamic type annotations
+Generics	Supported	Supported
+Support in existing projects	TypeScript package can be added to support TypeScript	Add support with Babel
+
 ## TypeScript
 
 ### Prós
 
 - Comunidade maior: Por ser mais antigo que o Flow, sua comunidade é maior e possui mais definições.
-- Suporte do VS code é aparentemente melhor que o do Flow (Microsoft 👬).
+- Suporte do VS code e do WebStorm é aparentemente melhor que o do Flow (Microsoft 👬).
 
 ### Contras
 
@@ -93,6 +106,7 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 
 Com `//@flow` você pode ir aplicando o Flow apenas nos arquivos que desejar e ir fazendo a tipagem gradualmente.
 
+**.babelrc**
 ```json
 {
   "presets": ["@babel/preset-flow"]
