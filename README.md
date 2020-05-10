@@ -84,12 +84,11 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 | Questions posted on Stack Overflow	| 100000+	| 600+ |
 |Framework support	| Many, including Express, Vue, React, Angular, etc.	| React only |
 | Library support	| Many |	Few to none (that we know of) |
-
-Autocomplete	Available in IDEs and text editors	None
-Compiler error detection	Available in IDEs and text editors	None
-Syntax	Comprehensive type checking, includes both static and dynamic type annotations	Comprehensive type checking, includes both static and dynamic type annotations
-Generics	Supported	Supported
-Support in existing projects	TypeScript package can be added to support TypeScript	Add support with Babel
+| Autocomplete	| Available in IDEs and text editors |	None |
+| Compiler error detection	| Available in IDEs and text editors |	None |
+| Syntax	| Comprehensive type checking, includes both static and dynamic type annotations	| Comprehensive type checking, includes both static and dynamic type annotations |
+| Generics |	Supported	| Supported |
+| Support in existing projects |	TypeScript package can be added to support TypeScript	| Add support with Babel |
 
 ## TypeScript
 
