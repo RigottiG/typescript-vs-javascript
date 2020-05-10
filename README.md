@@ -53,7 +53,7 @@ Nos componentes do Material UI se usamos o auxilio de preenchimento já mostra o
 
 ### Flow
 
-O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow](https://github.com/flow-typed/flow-typed) que talvez por falta de conhecimento eu tinha que rodar um comando para verificar os tipos e achei isso trabalhoso, pode se mesmo falta de conhecimento da minha parte. 
+O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow](https://github.com/flow-typed/flow-typed). 
 
 ### Prop Types
 
@@ -92,6 +92,12 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 ## Flow
 
 Com `//@flow` você pode ir aplicando o Flow apenas nos arquivos que desejar e ir fazendo a tipagem gradualmente.
+
+```json
+{
+  "presets": ["@babel/preset-flow"]
+}
+```
 
 ### Prós
 
