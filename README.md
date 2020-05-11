@@ -1,16 +1,10 @@
-# TypeScript ⚔ JavaScript
+# JavaScript tipado ⚔ JavaScript puro
 
 Assim como o JQuery, toda tecnologia tem seu tempo e seu espaço, ou seja, não são eternas nem são balas de prata.
 
-> Com a tipagem estática, temos o benefício de pegar erros em tempo de compilação ao invés de runtime, melhorando a leitura e auxiliando na refatoração do código, além de trazer sugestões mais precisas na IDE. [TypeScript vs Flow no segundo semestre de 2018](https://medium.com/rung-brasil/typescript-vs-flow-no-segundo-semestre-de-2018-54af2d4325d1)
+> Com a tipagem estática, temos o benefício de pegar erros em tempo de compilação (na tipagem estática) ao invés de runtime, melhorando a leitura e auxiliando na refatoração do código, além de trazer sugestões mais precisas na IDE. [TypeScript vs Flow no segundo semestre de 2018](https://medium.com/rung-brasil/typescript-vs-flow-no-segundo-semestre-de-2018-54af2d4325d1)
 
-## Nome 😋
-
-| TypeScript  |  JavaScript |
-|---|---|
-| 1  | 0  |
-
-## Qual problema o TypeScript vem resolver?
+## Qual problema a tipagem vem resolver?
 
 Tudo começou com o Ajax, quando as aplicações pararam de ter que recarregar as páginas e passaram a tratar mais os dados com JavaScript. O termo para isso é Interface de Aplicação Rica (RIA), esse conceito moveu muitas coisas no frontend, como surgimento dos grandes frameworks JS e também a criação dos atributos de acessibilidade (ARIA) que na sigla já diz que é uma interface rica e também acessível.
 
@@ -29,27 +23,11 @@ Em resumo conforme a aplicação cresce a manutenção fica onerosa apenas com J
 
 - Não saber se houve confusão nos dados.
 - Não descrever o formato de um elemento fazendo com que quem usar possa cometer erros.
-- Auxiliar fracamente no preenchimento (VS Code + Typescript)
+- Auxiliar fracamente no preenchimento
 - Não ser declarativo quanto a valores opcionais.
 - Não ter Enum que deixa o código mais amarrado e da uma noção melhor das possíveis opções de preenchimento.
 
-## Quem está usando?
-
-Exagerando um pouco, "todo mundo". Toda biblioteca maior que importamos é em typescript ou ao menos uso o typescript para gerar o arquivo de definição de tipos que será abaixo. Alguns casos:
-
-### Angular
-
-Desde a versão 2 eles perceberam a necessidade da tipagem.
-
-### React
-
- Mesmo não sendo obrigatório igual o Angular, o React exporta os tipos junto com suas bibliotecas.
-
-### Material UI
-
-Nos componentes do Material UI se usamos o auxilio de preenchimento já mostra os possíveis atributos, após escrever o atributo="" se pressionar o auxilio dentro do "" irá mostrar todas as opções (Enum).
-
-## E não tem nada que substitua o TypeScript?
+## O que tem para auxiliar nisso?
 
 ### Flow
 
@@ -78,6 +56,8 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 
 # TypeScript ⚔ Flow
 
+Digamos que estamos convencidos que precisamos de uma tipagem.
+
 | | TypeScript | Flow |
 |---|---|---|
 | Suporte em editores e IDEs	| Vs Code e WebStorm	| Quase nada |
@@ -90,7 +70,40 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 | Generics |	Supported	| Supported |
 | Support in existing projects |	TypeScript package can be added to support TypeScript	| Add support with Babel |
 
-# Mitos
+# TypeScript
+
+Digamos que escolhemos o TypeScript.
+
+## Nome 😋
+
+| TypeScript  |  JavaScript |
+|---|---|
+| 1  | 0  |
+
+## Quem está usando?
+
+Exagerando um pouco, "todo mundo". Toda biblioteca maior que importamos é em typescript ou ao menos uso o typescript para gerar o arquivo de definição de tipos que será abaixo. Alguns casos:
+
+### Angular
+
+Desde a versão 2 eles perceberam a necessidade da tipagem.
+
+### React
+
+ Mesmo não sendo obrigatório igual o Angular, o React exporta os tipos junto com suas bibliotecas.
+
+### Material UI
+
+Nos componentes do Material UI se usamos o auxilio de preenchimento já mostra os possíveis atributos, após escrever o atributo="" se pressionar o auxilio dentro do "" irá mostrar todas as opções (Enum).
+
+## Mitos
+
+### É Orientado a Objetos
+
+Isso vai depender de como você usa o JavaScript, ele é tanto Orientado a objetos como funcional, então vai do teu gosto.
+
+O React é mais voltado para o paradigma funcional e também da suporte para TypeScript.
+
 ### É necessario tipar TUDO :fearful: ?
 
 Bem resumidamente **NÃO**, durante o desenvolvimento o próprio Typescript encontra todas entradas e saídas possíveis e tenta determinar automaticamente elas, é a chamada _inferência de tipos_
