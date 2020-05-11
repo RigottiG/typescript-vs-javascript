@@ -90,3 +90,15 @@ Estou avaliando poucos pontos, sem estudo algum, então um pouco injusto. Outro 
 | Generics |	Supported	| Supported |
 | Support in existing projects |	TypeScript package can be added to support TypeScript	| Add support with Babel |
 
+# Mitos
+### É necessario tipar TUDO :fearful: ?
+
+Bem resumidamente **NÃO**, durante o desenvolvimento o próprio Typescript encontra todas entradas e saídas possíveis e tenta determinar automaticamente elas, é a chamada _inferência de tipos_
+
+Isso significa que para declarmos uma variavel String por exemplo não necessitamos explicitamente dizer que é uma String, o próprio Typescript vai inferir esse tipo para nós.
+
+```typescript
+const truth = 'Typescript é o melhor \o/';
+```
+
+O TypeScript já entende que a variável `truth` é uma string e se tentarmos alterar seu valor para numerico posteriormente, receberemos um erro.
