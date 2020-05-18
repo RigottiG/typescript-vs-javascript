@@ -115,3 +115,21 @@ const truth = 'Typescript é o melhor \o/';
 ```
 
 O TypeScript já entende que a variável `truth` é uma string e se tentarmos alterar seu valor para numerico posteriormente, receberemos um erro.
+
+## Exemplos
+
+Quando as informações vêm de lugares diferentes e após um formatador queremos que os dados fiquem num mesmo padrão.
+
+```js
+const formatProductEcommerce = (data = {}) => ({
+  sku: data.sku,
+  image: data.thumb
+  // ...
+});
+```
+
+```js
+const formatProductRichRelevance = (data = {}) => ({
+  // os dados vieram diferentes, mas que quero que saia daqui igual o de cima
+});
+```
