@@ -116,12 +116,14 @@ const truth = 'Typescript é o melhor \o/';
 
 O TypeScript já entende que a variável `truth` é uma string e se tentarmos alterar seu valor para numerico posteriormente, receberemos um erro.
 
-## Exemplos
+## Exemplos onde o TypeScript cai como uma luva
 
-Quando as informações vêm de lugares diferentes e após um formatador queremos que os dados fiquem num mesmo padrão.
+### Quando queremos um mesmo retorno em mais de um lugar
+
+Quando as informações vêm de lugares diferentes e após um formatador queremos que os dados fiquem num mesmo padrão, pois futuramente serão consumidas pelo mesmo serviço. Neste exemplo ambos os dados serão consumidos por uma prateleira de recomendações de produtos.
 
 ```js
-const formatProductEcommerce = (data = {}) => ({
+const formatProductEcommerce = (data = {}): Produto => ({
   sku: data.sku,
   image: data.thumb
   // ...
@@ -129,7 +131,15 @@ const formatProductEcommerce = (data = {}) => ({
 ```
 
 ```js
-const formatProductRichRelevance = (data = {}) => ({
+const formatProductRichRelevance = (data = {}): Produto => ({
   // os dados vieram diferentes, mas que quero que saia daqui igual o de cima
 });
 ```
+
+### Para saber o que uma biblioteca de terceiro possui
+
+Ficar olhando na documentação tudo como funciona é trabalhoso, com TypeScript se você chamar algo de uma biblioteca (quase 100% já estão tipadas), você será auxiliado com o preenchimento.
+
+![image](https://user-images.githubusercontent.com/27368585/82323554-9d431580-99ae-11ea-8961-f3930abc91df.png)
+Material UI
+
