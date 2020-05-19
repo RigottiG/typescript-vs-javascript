@@ -141,5 +141,6 @@ const formatProductRichRelevance = (data = {}): Produto => ({
 Ficar olhando na documentação tudo como funciona é trabalhoso, com TypeScript se você chamar algo de uma biblioteca (quase 100% já estão tipadas), você será auxiliado com o preenchimento.
 
 ![image](https://user-images.githubusercontent.com/27368585/82323554-9d431580-99ae-11ea-8961-f3930abc91df.png)
+
 Material UI
 
