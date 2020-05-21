@@ -1,0 +1,14 @@
+{
+  "name": "typescript",
+  "workspaces": [
+    "modules/*"
+  ],
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "yarn workspaces run start"
+  },
+  "author": "Jomar",
+  "license": "ISC"
+}

@@ -1,0 +1,3 @@
+- Mostar o typescript no tsconfig
+- Mostra o resultado de ambos os calc.js e sua declaração de tipo
+- Sem o enum não teria controle nos tipos

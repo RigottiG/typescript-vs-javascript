@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "dist",
+    // "allowSyntheticDefaultImports": true,
+    // "esModuleInterop": true,
+    "sourceMap": true,
+    "module": "CommonJS"
+  },
+  "include": ["./src"]
+}
