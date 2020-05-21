@@ -10,7 +10,7 @@ Tudo começou com o Ajax, quando as aplicações pararam de ter que recarregar a
 
 Progressivamente os websites evoluiram da seguinte forma em relação ao javascript:
 
-- sem javascript
+- [sem javascript](https://norvig.com/design-patterns/ppframe.htm)
 - ajax, renderizar templates, alterar elementos da DOM
 - a página inteira em JavaScript
 - O site inteiro em JavaScript, a navegação não recarrega mais a página (SPA)
