@@ -5,7 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "start": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "execute": "node ./dist/index.js"
   },
   "author": "Jomar",
   "license": "ISC",

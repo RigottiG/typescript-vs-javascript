@@ -31,7 +31,7 @@ Em resumo conforme a aplicação cresce a manutenção fica onerosa apenas com J
 
 ### Flow
 
-O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow](https://github.com/flow-typed/flow-typed). 
+O Facebook fez suas iniciativas e investimentos na tipagem de dados, pois também perceberam a necessidade, uma delas e principal concorrente do TypeScript é o [Flow](https://github.com/flow-typed/flow-typed).
 
 ### Prop Types
 

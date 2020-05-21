@@ -1,1 +1,1 @@
-export { default as Calc } from './calc-ts/calc';
+export { default as Calcular } from './calc-ts/calc';

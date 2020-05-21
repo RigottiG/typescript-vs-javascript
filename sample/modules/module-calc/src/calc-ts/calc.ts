@@ -1,22 +1,17 @@
-function somar(número1: number, número2: number): number {
-  return número1 + número2;
+function somar(números: Array<number> = []): number {
+  return números.reduce((soma, número) => soma + número, 0);
 }
 
-function subtrair(número1: number, número2: number): number {
-  return número1 - número2;
+function multiplicar(fatores: Array<number> = []): number {
+  return fatores.reduce((produto, fator) => produto * fator, 1);
 }
 
-function multiplicar(fator1: number, fator2: number): number {
-  return fator1 + fator2;
-}
-
-function dividir(dividendo: number, divisor: number): number {
-  return dividendo / divisor;
+function potenciar(base: number, expoente: number) {
+  return Math.pow(base, expoente);
 }
 
 export default {
   somar,
-  subtrair,
   multiplicar,
-  dividir
+  potenciar
 };

@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "declaration": true,
     "outDir": "dist",
-    "sourceMap": true,
     "module": "CommonJS"
   },
   "include": ["./src"]

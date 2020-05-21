@@ -1,4 +1,4 @@
-import { Calc } from 'typescript-module-calc';
+import { Calcular } from 'typescript-module-calc';
 
 const PI = 3.14;
 
@@ -16,8 +16,8 @@ interface FiguraGeométrica {
 
 function gerarCírculo(raio: number): FiguraGeométrica {
   return {
-    area: 2 * PI * raio,
-    perímetro: PI * Math.pow(raio, 2),
+    area: Calcular.multiplicar([2, PI, raio]),
+    perímetro: Calcular.multiplicar([PI, Calcular.potenciar(raio, 2)]),
     tipo: TipoFiguraGeométrica.CÍRCULO
   }
 }
