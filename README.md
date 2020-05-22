@@ -65,10 +65,10 @@ Digamos que estamos convencidos que precisamos de uma tipagem.
 | Suporte a framework	| vários, including Express, Vue, React, Angular, etc.	| Somente React |
 | Documentação	| Ampla |	Muito fraca |
 | Autocomplete	| Disponível  |	Não há |
-| Compiler error detection	| Available in IDEs and text editors |	Não há |
-| Syntax	| Comprehensive type checking, includes both static and dynamic type annotations	| Comprehensive type checking, includes both static and dynamic type annotations |
-| Generics |	Supported	| Supported |
-| Support in existing projects |	TypeScript package can be added to support TypeScript	| Add support with Babel |
+| Erros detectados em compilação	| Disponivel em IDE's e editores de texto (principalmente VSCode) |	Não há |
+| Syntax	| Compreensiva e simples	| Compreensiva e simples |
+| Generics |	Suportado	| Suportado |
+| Suporte para projetos existentes |	O pacote [Typescript](https://www.npmjs.com/package/typescript) pode ser adicionado para dar suporte ao Typescript| Suporte via Babel |
 
 # TypeScript
 
@@ -83,8 +83,6 @@ Digamos que escolhemos o TypeScript.
 ## Quem está usando?
 
 Exagerando um pouco, "todo mundo". Toda biblioteca maior que importamos é em typescript ou ao menos uso o typescript para gerar o arquivo de definição de tipos que será abaixo. Alguns casos:
-
-[Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped)
 
 ### Angular
 
