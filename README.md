@@ -149,3 +149,31 @@ Material UI
 Precisamos mudar um formato de objeto em toda a aplicação, para isso só precisamos alterar a interface e todos vão alertar se algo estiver errado.
 
 ![image](https://user-images.githubusercontent.com/27368585/82401853-4d596280-9a31-11ea-966f-85a25bf18435.png)
+
+### Quando queremos uma estrutura boa
+
+```ts
+enum Ojective {
+  HEALTH = 'Saúde',
+  MUSCLE = 'Músculatura',
+  LOSE_WEIGHT = 'Perder peso',
+}
+
+enum Biotype {
+  ECTOMORPH = 'Ectomorfo',
+  ENDOMORPH = 'Endomorfo',
+  MESOMORPH = 'Mesomorfo'
+}
+
+export interface User {
+  name: string;
+  age: number;
+  objectives: Array<Ojective>;
+  biotype: Biotype
+}
+
+export interface Account {
+  user: User;
+  meals: Array<Meal>; // ...
+}
+```
