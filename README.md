@@ -84,6 +84,8 @@ Digamos que escolhemos o TypeScript.
 
 Exagerando um pouco, "todo mundo". Toda biblioteca maior que importamos é em typescript ou ao menos uso o typescript para gerar o arquivo de definição de tipos que será abaixo. Alguns casos:
 
+[Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped)
+
 ### Angular
 
 Desde a versão 2 eles perceberam a necessidade da tipagem.
